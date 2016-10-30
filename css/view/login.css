@@ -1,0 +1,26 @@
+.keyboard-inp {
+	margin-bottom: 20px;
+}
+
+.keybaord-inp-item {
+	width: 53px;
+	height: 53px;
+	border: #18a689 1px solid;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+
+.keybaord-inp-item .fa {
+	line-height: 51px;
+	margin-left: 1px;
+}
+
+.keybaord-btn-item.btn-large-dim {
+	width: 81px;
+	height: 81px;
+	font-size: 42px;
+}
+
+.loginscreen.middle-box {
+	width: 300px;
+}

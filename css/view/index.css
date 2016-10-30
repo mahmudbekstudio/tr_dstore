@@ -1,0 +1,277 @@
+.search-form .form-group,
+.search-form .input-group {
+	width: 100%;
+}
+
+.search-form .input-group .input-group-addon.search-ico {
+	width: 40px;
+}
+
+.category-list {
+	width: 350px !important;
+	padding: 0;
+}
+
+.category-list-select {
+	height: 48px;
+	width: 100% !important;
+	border: 0;
+}
+
+.search-product-input {
+	height: 50px;
+}
+
+.actions-info {
+	margin: 10px 0;
+}
+
+.products-tabs-content {
+	padding: 15px;
+	border: 1px #DDD solid;
+	border-top: 0;
+}
+
+.products-tab-header-link {
+	outline: none;
+}
+
+.products-tab-item {
+	position: relative;
+	height: 100%;
+}
+
+.products-buttons {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.total-price-title,
+.total-price-type {
+	font-size: 20px;
+}
+
+.total-price-value {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.total-price-container {
+	display: inline-block;
+	text-align: center;
+}
+
+.search-products-result {
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	z-index: 3;
+	background-color: #EEE;
+	min-width: 240px;
+	border: #333 1px solid;
+	border-bottom: 0;
+}
+
+.search-products-result-item-example {
+	display: none;
+}
+
+.search-products-result-item {
+	height: 45px;
+	border-bottom: #333 1px solid;
+	cursor: pointer;
+	position: relative;
+}
+
+.search-products-result-item:hover,
+.search-products-result-item.active,
+.search-products-result-item:hover .search-products-result-name,
+.search-products-result-item.active .search-products-result-name {
+	background-color: #FFF;
+}
+
+.search-products-result-image {
+	position: absolute;
+	left: 5px;
+	width: 50px;
+	height: 45px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.search-products-result-image .img-responsive {
+	max-width: 46px;
+}
+
+.search-products-result-name {
+	position: absolute;
+	left: 50px;
+	right: 142px;
+	padding: 2px 0 2px 5px;
+	min-width: 100px;
+	z-index: 2;
+	background-color: #EEE;
+}
+
+.search-products-result-name-title {
+	font-size: 15px;
+	line-height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+.search-products-result-name-info {
+	font-size: 12px;
+	line-height: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+.search-products-result-price {
+	position: absolute;
+	right: 5px;
+	width: 142px;
+	line-height: 45px;
+	text-align: right;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	z-index: 1;
+}
+
+.search-products-result-info {
+	border-bottom: 1px solid #333;
+	font-weight: bold;
+}
+
+.search-products-result-info-not-found,
+.search-products-result-info-found  {
+	padding: 2px 5px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.search-products-result-list {
+	max-height: 225px;
+	overflow: auto;
+}
+
+.basket-tab-content {
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+.custom-table {
+	height: 100%;
+}
+
+.basket-row-item-example {
+	display: none;
+}
+
+/* lg */
+@media (min-width: 1200px) {
+	.category-list-select,
+	.search-product-input {
+		font-size: 20px;
+	}
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.category-list-select,
+	.search-product-input {
+		font-size: 20px;
+	}
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.category-list {
+		width: 200px !important;
+	}
+
+	.search-product-input {
+		height: 30px;
+	}
+
+	.category-list-select {
+		height: 28px;
+	}
+
+	.search-products-result {
+		top: 30px;
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+	.category-list {
+		width: 150px !important;
+	}
+
+	.search-product-input {
+		height: 30px;
+	}
+
+	.category-list-select {
+		height: 28px;
+	}
+
+	.search-products-result {
+		top: 30px;
+	}
+
+	.total-price-title,
+	.total-price-type {
+		font-size: 15px;
+	}
+
+	.total-price-value {
+		font-size: 24px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+	.category-list {
+		width: 100px !important;
+	}
+
+	.search-product-input {
+		height: 30px;
+	}
+
+	.category-list-select {
+		height: 28px;
+	}
+
+	.search-products-result {
+		top: 30px;
+	}
+
+	.total-price-title,
+	.total-price-type {
+		font-size: 12px;
+	}
+
+	.total-price-value {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 385px) {
+	.products-tabs > li > a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
